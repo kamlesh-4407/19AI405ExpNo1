@@ -1,7 +1,6 @@
 <h1>ExpNo 1 :Developing AI Agent with PEAS Description</h1>
 <h3>Name: Kamlesh Y </h3>
-<h3>Register Number: 212224100029
-1</h3>
+<h3>Register Number: 212224100029</h3>
 
 
 <h3>AIM:</h3>
@@ -75,7 +74,7 @@ class HealthMonitoringAgent:
                 break
 
     def choose_action(self, current_health_state):
-             if current_health_state['heart_rate'] > 110:
+        if current_health_state['heart_rate'] > 110:
             return "Alert healthcare provider: High heart rate detected"
         elif current_health_state['blood_pressure'] > 140:
             return "Alert healthcare provider: High blood pressure detected"
@@ -101,9 +100,9 @@ class HealthActuators:
 
 if __name__ == "__main__":
     patient_data = {
-        'patient_id': 1237,
-        'name': 'Yogesh',
-        'age': 19
+        'patient_id': 1007,
+        'name': 'Kamlesh',
+        'age': 20
     }
 
     health_sensors = HealthSensors()
@@ -117,6 +116,7 @@ if __name__ == "__main__":
 ```
 ## OUTPUT :
 
+<img width="483" height="281" alt="Screenshot 2026-10-16 035445" src="https://github.com/user-attachments/assets/e9ab1a78-1971-402d-9587-d94f48d4258c" />
 
 
 ## RESULT:
